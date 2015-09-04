@@ -3,13 +3,13 @@ using System.Collections;
 
 public class Generate : MonoBehaviour {
 
-  public GameObject star;
+  public GameObject stargroup;
 
 	// Use this for initialization
 	void Start () {
 
     
-	  InvokeRepeating("CreateStar", 0.1f, 0.5f);
+	  InvokeRepeating("CreateStar", 0.1f, 0.8f);
 
 	}
 
@@ -19,6 +19,6 @@ public class Generate : MonoBehaviour {
 	}
 
   void CreateStar(){
-    Instantiate(star);
+    Instantiate(stargroup);
   }
 }
