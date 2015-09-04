@@ -7,7 +7,8 @@ public class Generate : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	 InvokeRepeating("CreateStar", 1f, 1.5f);
+	 InvokeRepeating("CreateStar", 0.1f, 0.5f);
+
 	}
 
 	// Update is called once per frame
