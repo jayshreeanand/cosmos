@@ -1,10 +1,12 @@
 fileFormatVersion: 2
 guid: 6836b0b62abe2496697df2a977731bb7
-timeCreated: 1441373586
+timeCreated: 1443032704
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - stargroup: {fileID: 134468, guid: a38e828cb3c924ebaa23f0474e6a17c4, type: 2}
+  - raygroup: {fileID: 108022, guid: 3495b428e87844cccaef3815a41fe1a4, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
