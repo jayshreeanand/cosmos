@@ -14,8 +14,8 @@ public class Generate : MonoBehaviour {
     
 	  InvokeRepeating("CreateStar", 0.1f, 0.5f);
     InvokeRepeating("CreateRay", 0.8f, 0.5f);
-    InvokeRepeating("CreateAsteroidSmall", 1f, 1f);
-    InvokeRepeating("CreateAsteroidLarge", 3f, 3f);
+    InvokeRepeating("CreateAsteroidSmall", 0.7f, 0.7f);
+    InvokeRepeating("CreateAsteroidLarge", 2f, 2f);
 
 
 	}
