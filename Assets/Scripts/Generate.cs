@@ -9,7 +9,7 @@ public class Generate : MonoBehaviour {
 	void Start () {
 
     
-	  InvokeRepeating("CreateStar", 0.1f, 0.8f);
+	  InvokeRepeating("CreateStar", 0.1f, 0.5f);
 
 	}
 
