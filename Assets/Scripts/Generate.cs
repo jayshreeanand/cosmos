@@ -5,6 +5,8 @@ public class Generate : MonoBehaviour {
 
   public GameObject stargroup;
   public GameObject raygroup;
+  public GameObject asteroid_small;
+  public GameObject asteroid_large;
 
 	// Use this for initialization
 	void Start () {
@@ -12,6 +14,8 @@ public class Generate : MonoBehaviour {
     
 	  InvokeRepeating("CreateStar", 0.1f, 0.5f);
     InvokeRepeating("CreateRay", 0.8f, 0.5f);
+    InvokeRepeating("CreateAsteroidSmall", 1f, 1f);
+    InvokeRepeating("CreateAsteroidLarge", 3f, 3f);
 
 
 	}
@@ -27,5 +31,13 @@ public class Generate : MonoBehaviour {
 
   void CreateRay(){
     Instantiate(raygroup);
+  }
+
+  void CreateAsteroidSmall(){
+    Instantiate(asteroid_small);
+  }
+
+  void CreateAsteroidLarge(){
+    Instantiate(asteroid_large);
   }
 }
